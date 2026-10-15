@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercise Simple Math</title>
+    <script src="Caculator.js"></script>
+</head>
+<body>
+    Number A (*) <br>
+    <input type="text" id="numbera"><br>
+
+    Number B (*)<br>
+    <input type="text" id="numberb"><br><br>
+
+    Summation:
+    <input type="button" value="+" onclick="result(cong(getValueA(), getValueB()))">
+    <br><br>
+
+    Subtraction:
+    <input type="button" value="-" onclick="result(tru(getValueA(), getValueB()))">
+    <br><br>
+
+    Multiplication:
+    <input type="button" value="*" onclick="result(nhan(getValueA(), getValueB()))">
+    <br><br>
+
+    Division:
+    <input type="button" value="/" onclick="result(chia(getValueA(), getValueB()))">
+    <br><br>
+
+    Result A & B:<br>
+    <input type="text" id="result" disabled>
+</body>
+</html>
